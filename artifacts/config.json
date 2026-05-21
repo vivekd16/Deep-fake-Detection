@@ -1,0 +1,19 @@
+{
+  "data_root": "real_vs_fake/real-vs-fake",
+  "train_csv": "train.csv",
+  "valid_csv": "valid.csv",
+  "test_csv": "test.csv",
+  "output_dir": "artifacts",
+  "model_name": "resnet18",
+  "image_size": 224,
+  "batch_size": 32,
+  "epochs": 10,
+  "learning_rate": 0.0003,
+  "weight_decay": 0.0001,
+  "num_workers": 0,
+  "patience": 3,
+  "label_smoothing": 0.05,
+  "dropout": 0.3,
+  "seed": 42,
+  "freeze_backbone_epochs": 10
+}

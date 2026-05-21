@@ -1,0 +1,28 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large local dataset files
+real_vs_fake/
+
+# Trained model checkpoints can be large; keep metrics/config in artifacts.
+artifacts/*.pt
+artifacts/*.pth
+
+# Source templates used while drafting reports
+docs/*Template.docx
+docs/Project\ Synopsis\ Format.docx
+
+# Local runtime/log files
+*.log
+*.tmp
