@@ -2,6 +2,7 @@
 
 This project trains a ResNet classifier on your `real_vs_fake/real-vs-fake` dataset from a Jupyter notebook and serves the best checkpoint through a Gradio web app.
 
+**[🚀 Try the Live Gradio Demo on Hugging Face](https://huggingface.co/spaces/Vivek6041/Deepfake_Face_Detection)**
 ## Dataset layout
 
 The code expects this structure, which matches your workspace:
